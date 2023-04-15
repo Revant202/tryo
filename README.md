@@ -21,4 +21,5 @@ first,create .env file in backend folder and add your own MONGODB key
 ```bash
   npm start
 ```
+enter username = rev, password = rev, for login, or create a new account.
 
