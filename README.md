@@ -74,7 +74,7 @@ A Job portal where you can explore, apply or post jobs.
 - Status Updated for applied Job based on Job poster action 
 - JWT validation on each Authorized Request
 - View or download Applicant CV's
-#### Vercel Don't allow write operation in free plan so CV are unable to saved in production, but works fine in local App ) 
+#### Vercel Don't allow write operation in free plan so CV are unable to saved in production, but works fine in local App
 
 ## Environment Variables
 
