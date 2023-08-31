@@ -20,13 +20,16 @@ A Job portal where you can explore, apply or post jobs.
 
 ## Screenshots
 
-#### Loading Screen
-https://github.com/Revant202/tryo/assets/76607683/4cd7c0f0-435d-435b-bc50-a31d0a4b33c6
-![image](https://user-images.githubusercontent.com/90745903/235368351-699df61b-15bb-429d-9387-c724cc4c0d75.png)
-![login](https://github.com/Revant202/tryo/assets/76607683/df4e54fc-f461-4bc3-b52d-521f6fa412e6)
-![landing](https://github.com/Revant202/tryo/assets/76607683/c2fd1dda-f5b9-47af-8f15-9b79e4f486e3)
-![register](https://github.com/Revant202/tryo/assets/76607683/1c6af41c-e3f4-4f02-8c78-8b682a3e4f40)
 
+#### Loading Screen
+![Website Video]https://github.com/Revant202/tryo/assets/76607683/4cd7c0f0-435d-435b-bc50-a31d0a4b33c6
+![landing](https://github.com/Revant202/tryo/assets/76607683/16f7f412-6414-4fee-861a-f35f69c86a85)
+![login](https://github.com/Revant202/tryo/assets/76607683/f790c597-c9a5-4c86-8809-cb3fb7e971cd)
+![register](https://github.com/Revant202/tryo/assets/76607683/64ebc610-cd06-4dc2-82d8-c83e6ccc1a6e)
+![dashboard](https://github.com/Revant202/tryo/assets/76607683/93a1b9b7-b48b-4d1a-b3e5-4f97396e66ae)
+![search](https://github.com/Revant202/tryo/assets/76607683/af685bd8-83f6-4f0c-8485-7ba0168149fc)
+![posted jobs](https://github.com/Revant202/tryo/assets/76607683/aa0b8e73-ed40-4e43-bfe7-115af66edb26)
+![job details](https://github.com/Revant202/tryo/assets/76607683/ab44f38f-5de7-46e2-9390-ea11e3f654a5)
 
 
 ## Features
