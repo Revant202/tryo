@@ -22,18 +22,23 @@ A Job portal where you can explore, apply or post jobs.
 
 
 #### Loading Screen
-![Website Video]https://github.com/Revant202/tryo/assets/76607683/4cd7c0f0-435d-435b-bc50-a31d0a4b33c6
-![landing](https://github.com/Revant202/tryo/assets/76607683/16f7f412-6414-4fee-861a-f35f69c86a85)
-![login](https://github.com/Revant202/tryo/assets/76607683/f790c597-c9a5-4c86-8809-cb3fb7e971cd)
-![register](https://github.com/Revant202/tryo/assets/76607683/64ebc610-cd06-4dc2-82d8-c83e6ccc1a6e)
-![dashboard](https://github.com/Revant202/tryo/assets/76607683/93a1b9b7-b48b-4d1a-b3e5-4f97396e66ae)
-![search](https://github.com/Revant202/tryo/assets/76607683/af685bd8-83f6-4f0c-8485-7ba0168149fc)
-![posted jobs](https://github.com/Revant202/tryo/assets/76607683/aa0b8e73-ed40-4e43-bfe7-115af66edb26)
-![job details](https://github.com/Revant202/tryo/assets/76607683/ab44f38f-5de7-46e2-9390-ea11e3f654a5)
+Website working Video - https://github.com/Revant202/tryo/assets/76607683/4cd7c0f0-435d-435b-bc50-a31d0a4b33c6
+
+![landing](https://github.com/Revant202/tryo/assets/76607683/6c626d94-37f2-4d20-96c0-25ff17b7dc87)
+![login](https://github.com/Revant202/tryo/assets/76607683/28726cc6-c479-488d-b09a-6044915b0992)
+![register](https://github.com/Revant202/tryo/assets/76607683/0c8477c5-3fad-4b44-a95c-4fd84caac7a3)
+![search](https://github.com/Revant202/tryo/assets/76607683/a6318d52-4d88-4ac5-8a68-056412184636)
+![job details](https://github.com/Revant202/tryo/assets/76607683/3825c7b8-79f8-42f0-ae4c-e1bca8dec447)
+![dashboard](https://github.com/Revant202/tryo/assets/76607683/48b2c3ad-706d-4639-b4e5-4e84d26f92aa)
+![posted jobs](https://github.com/Revant202/tryo/assets/76607683/08b665d8-ae9d-41fc-985d-c6817fcdd095)
+![posted job dashboard](https://github.com/Revant202/tryo/assets/76607683/53335379-1909-4d67-88e8-997f854f80a2)
+![avaliable jobs](https://github.com/Revant202/tryo/assets/76607683/91f2518f-13f2-451e-929b-14bc19301e29)
+![apply job](https://github.com/Revant202/tryo/assets/76607683/317f42c9-9eb6-4ac5-86f9-20af414933dc)
+![loading screen](https://github.com/Revant202/tryo/assets/76607683/6b01b68c-0c7b-4c10-97df-2d19df31cbcc)
+
 
 
 ## Features
-
 
 
 
