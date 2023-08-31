@@ -78,3 +78,5 @@ Install my-project with npm
   npm run build (for Production)
   npm run preview (To View Production Server )
 ```
+## Deployment
+https://tryo.vercel.app/
