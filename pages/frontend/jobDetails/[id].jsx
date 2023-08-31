@@ -85,7 +85,7 @@ export default function JobDetails() {
                         <ToastContainer />
                         <NavBar />
                         <div className='w-full  py-20 flex items-center md:px-8 px-2  justify-center flex-col  '>
-                            <div className='w-full h-40 bg-gray-50 text-indigo-600 font-bold flex items-center justify-center flex-col'>
+                            <div className='w-full h-40 bg-gray-50 text-cyan-600 font-bold flex items-center justify-center flex-col'>
                                 <h1 className='text-3xl'>Job Details</h1>
                             </div>
                             <div className='flex items-center  justify-center w-full py-10'>
@@ -100,36 +100,36 @@ export default function JobDetails() {
                                     </div>
                                     <div className='md:px-4 mb-1 px-2 md:mx-2 flex flex-col items-start justify-center'>
                                         <div className='flex items-center justify-center mb-1'>
-                                            <FaUserAstronaut className='text-xs font-semibold text-indigo-600' />
+                                            <FaUserAstronaut className='text-xs font-semibold text-cyan-600' />
                                             <p className='font-semibold text-base mx-1'>Job Poster </p>
                                             <p className=' text-sm text-gray-800 mx-1'>{JobDetails?.user?.name}</p>
                                         </div>
                                         <div className='flex items-center justify-center mb-1'>
-                                            <MdEmail className='text-xs font-semibold text-indigo-600' />
+                                            <MdEmail className='text-xs font-semibold text-cyan-600' />
                                             <p className='font-semibold text-base mx-1'>Email </p>
                                             <p className=' text-sm text-gray-800 mx-1'>{JobDetails?.user?.email}</p>
                                         </div>
                                     </div>
                                     <div className='md:px-4 mb-1 px-2 md:mx-2 flex flex-col items-start justify-center'>
                                         <div className='flex items-center justify-center mb-1'>
-                                            <GoLocation className='text-xs font-semibold text-indigo-600' />
+                                            <GoLocation className='text-xs font-semibold text-cyan-600' />
                                             <p className='font-semibold text-base mx-1'>Location </p>
                                             <p className=' text-sm text-gray-800 mx-1'>Rawalipindi</p>
                                         </div>
                                         <div className='flex items-center justify-center mb-1'>
-                                            <MdCategory className='text-xs font-semibold text-indigo-600' />
+                                            <MdCategory className='text-xs font-semibold text-cyan-600' />
                                             <p className='font-semibold text-base mx-1'>Category </p>
                                             <p className=' text-sm text-gray-800 mx-1'>{JobDetails?.job_category}</p>
                                         </div>
                                     </div>
                                     <div className='md:px-4 mb-1 px-2 md:mx-2 flex flex-col items-start justify-center'>
                                         <div className='flex items-center justify-center mb-1'>
-                                            <BsBriefcaseFill className='text-xs font-semibold text-indigo-600' />
+                                            <BsBriefcaseFill className='text-xs font-semibold text-cyan-600' />
                                             <p className='font-semibold text-base mx-1'>Job Type </p>
                                             <p className='text-sm text-gray-800 mx-1'>{JobDetails?.job_type}</p>
                                         </div>
                                         <div className='flex items-center justify-center mb-1'>
-                                            <AiOutlineDollarCircle className='text-xs font-semibold text-indigo-600' />
+                                            <AiOutlineDollarCircle className='text-xs font-semibold text-cyan-600' />
                                             <p className='font-semibold text-base mx-1'>Salary </p>
                                             <p className=' text-sm text-gray-800 mx-1'>$ {JobDetails?.salary} </p>
                                         </div>
@@ -140,8 +140,8 @@ export default function JobDetails() {
                                                 <p className='text-xs text-red-500'>unable Apply to your Own jobs</p>
                                             ) : (
                                                 <div className='flex items-center justify-center  '>
-                                                    <BsFillBookmarkCheckFill onClick={handleBookMark} className='text-indigo-600 text-4xl cursor-pointer  mx-2'/>
-                                                    <button onClick={handleApply} className='md:px-6 md:py-3 px-3 py-2 mt-2 md:mt-0 bg-indigo-500 rounded text-base tracking-widest uppercase transition-all duration-700 hover:bg-indigo-900 text-white  '>Apply Position</button>
+                                                    <BsFillBookmarkCheckFill onClick={handleBookMark} className='text-cyan-600 text-4xl cursor-pointer  mx-2'/>
+                                                    <button onClick={handleApply} className='md:px-6 md:py-3 px-3 py-2 mt-2 md:mt-0 bg-cyan-500 rounded text-base tracking-widest uppercase transition-all duration-700 hover:bg-cyan-900 text-white  '>Apply Position</button>
                                                 </div>
                                             )
                                         }
@@ -150,23 +150,23 @@ export default function JobDetails() {
                             </div>
                             <div className='w-full md:px-4 py-2 flex items-center md:items-start md:flex-row flex-col justify-start md:justify-center'>
                                 <div className='md:w-8/12 w-full md:px-4 py-8 flex flex-col items-center content-start justify-center '>
-                                    <h1 className='text-center lg:text-2xl font-semibold text-xl mb-4 uppercase border-b-2 border-indigo-600 py-2'>Job Description</h1>
+                                    <h1 className='text-center lg:text-2xl font-semibold text-xl mb-4 uppercase border-b-2 border-cyan-600 py-2'>Job Description</h1>
                                     <p className='px-4'>{JobDetails?.description}</p>
                                 </div>
                                 <div className='md:w-4/12 w-full py-8 px-4 md:px-10'>
                                     <h1 className=' text-2xl font-semibold mb-2'>Job Summary</h1>
                                     <div className='flex items-center justify-start mb-3'>
-                                        <RiUserSearchFill className='text-base font-semibold text-indigo-600' />
+                                        <RiUserSearchFill className='text-base font-semibold text-cyan-600' />
                                         <p className='font-semibold text-base mx-1'>Total Vacancies </p>
                                         <p className=' text-sm text-gray-800 mx-1'>{JobDetails?.job_vacancy}</p>
                                     </div>
                                     <div className='flex items-center justify-start mb-3'>
-                                        <BsFillCalendar2DateFill className='text-base font-semibold text-indigo-600' />
+                                        <BsFillCalendar2DateFill className='text-base font-semibold text-cyan-600' />
                                         <p className='font-semibold text-base mx-1'>Dead Line</p>
                                         <p className=' text-sm text-gray-800 mx-1'>{new Date(`${JobDetails?.job_deadline}`).toLocaleDateString('en-GB')}</p>
                                     </div>
                                     <div className='flex items-center justify-start mb-3'>
-                                        <HiOutlineStar className='text-base font-semibold text-indigo-600' />
+                                        <HiOutlineStar className='text-base font-semibold text-cyan-600' />
                                         <p className='font-semibold text-base mx-1'>Experience Required</p>
                                         <p className=' text-sm text-gray-800 mx-1'>{JobDetails?.job_experience}</p>
                                     </div>
@@ -198,27 +198,27 @@ export default function JobDetails() {
                                                     </div>
                                                     <div className='flex flex-col px-1 md:px-4 py-6 items-start justify-center'>
                                                         <div className='flex px-1 md:px-4 items-center justify-start mb-2'>
-                                                            <BsBriefcaseFill className='text-base font-semibold text-indigo-600' />
+                                                            <BsBriefcaseFill className='text-base font-semibold text-cyan-600' />
                                                             <p className='font-semibold text-xs md:text-base mx-1'>Job Type </p>
                                                             <p className='text-sm text-gray-800 mx-1'>{item?.job_type}</p>
                                                         </div>
                                                         <div className='flex px-1 md:px-4 items-center justify-center mb-2'>
-                                                            <AiOutlineDollarCircle className='text-base font-semibold text-indigo-600' />
+                                                            <AiOutlineDollarCircle className='text-base font-semibold text-cyan-600' />
                                                             <p className='font-semibold text-xs md:text-base mx-1'>Salary </p>
                                                             <p className=' text-sm text-gray-800 mx-1'>{item?.salary}</p>
                                                         </div>
                                                         <div className='flex px-1 md:px-4 items-center justify-center mb-2'>
-                                                            <RiUserSearchFill className='text-base font-semibold text-indigo-600' />
+                                                            <RiUserSearchFill className='text-base font-semibold text-cyan-600' />
                                                             <p className='font-semibold text-xs md:text-base mx-1'>Total Vacancies </p>
                                                             <p className=' text-sm text-gray-800 mx-1'>{item?.job_vacancy}</p>
                                                         </div>
                                                         <div className='flex px-1 md:px-4 items-center justify-center mb-2'>
-                                                            <BsFillCalendar2DateFill className='text-base font-semibold text-indigo-600' />
+                                                            <BsFillCalendar2DateFill className='text-base font-semibold text-cyan-600' />
                                                             <p className='font-semibold text-xs md:text-base mx-1'>Dead Line</p>
                                                             <p className=' text-xs text-gray-800 mx-1'>{new Date(`${item?.job_deadline}`).toLocaleDateString('en-GB')}</p>
                                                         </div>
                                                     </div>
-                                                    <button onClick={() => router.push(`/frontend/jobDetails/${item?._id}`)} className='my-2 py-2 px-4  border border-indigo-600 uppercase  rounded flex items-center justify-center transition-all duration-700 hover:bg-indigo-600 hover:text-white text-indigo-600 font-semibold'>View Detail<AiOutlineArrowRight className='mx-2 text-xl' /></button>
+                                                    <button onClick={() => router.push(`/frontend/jobDetails/${item?._id}`)} className='my-2 py-2 px-4  border border-cyan-600 uppercase  rounded flex items-center justify-center transition-all duration-700 hover:bg-cyan-600 hover:text-white text-cyan-600 font-semibold'>View Detail<AiOutlineArrowRight className='mx-2 text-xl' /></button>
                                                 </div>
                                             )
                                         })

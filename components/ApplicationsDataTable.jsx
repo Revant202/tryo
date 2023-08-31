@@ -76,7 +76,7 @@ export default function ApplicationsDataTable({ application }) {
       selector: (row) => (
         <button
           onClick={() => handleDownloadCV(row?.cv)}
-          className=" w-20 py-2 text-xs text-indigo-600 hover:text-white my-2 hover:bg-indigo-600 border border-indigo-600 rounded transition-all duration-700"
+          className=" w-20 py-2 text-xs text-cyan-600 hover:text-white my-2 hover:bg-cyan-600 border border-cyan-600 rounded transition-all duration-700"
         >
           Download CV
         </button>
@@ -102,7 +102,7 @@ export default function ApplicationsDataTable({ application }) {
             onClick={() =>
               router.push(`/frontend/applicationDetail/${row?._id}`)
             }
-            className=" w-20 py-2 mx-2 text-xs text-indigo-600 hover:text-white my-2 hover:bg-indigo-600 border border-indigo-600 rounded transition-all duration-700"
+            className=" w-20 py-2 mx-2 text-xs text-cyan-600 hover:text-white my-2 hover:bg-cyan-600 border border-cyan-600 rounded transition-all duration-700"
           >
             Details
           </button>
@@ -154,7 +154,7 @@ export default function ApplicationsDataTable({ application }) {
         persistTableHead
         subHeaderComponent={
           <input
-            className="w-60  py-2 px-0  outline-none  border-b-2 border-indigo-600"
+            className="w-60  py-2 px-0  outline-none  border-b-2 border-cyan-600"
             type={"search"}
             value={search}
             onChange={(e) => setSearch(e.target.value)}

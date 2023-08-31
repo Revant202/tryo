@@ -54,9 +54,9 @@ export default function Login() {
   return (
     <>
     <NavBar />
-    <div className='w-full h-screen bg-indigo-600'>
+    <div className='w-full h-screen '>
       <div className="flex flex-col items-center  text-center justify-center px-6 py-8 mx-auto h-screen lg:py-0">
-        <div className="w-full bg-white text-black rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 ">
+        <div className="w-full bg-white text-black rounded-lg shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] dark:border md:mt-0 sm:max-w-md xl:p-0 ">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
             <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl ">
               Sign in to your account
@@ -64,14 +64,14 @@ export default function Login() {
             <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6" action="#">
               <div className='text-left'>
                 <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 ">Your email</label>
-                <input onChange={(e) => setFormData({ ...formData, email: e.target.value })} type="email" name="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-indigo-600 focus:border-indigo-600 block w-full p-2.5 " placeholder="name@company.com" required="" />
+                <input onChange={(e) => setFormData({ ...formData, email: e.target.value })} type="email" name="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5 " placeholder="name@company.com" required="" />
                 {
                   error.email && <p className="text-sm text-red-500">{error.email}</p>
                 }
               </div>
               <div className='text-left'>
                 <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 ">Password</label>
-                <input onChange={(e) => setFormData({ ...formData, password: e.target.value })} type="password" name="password" id="password" placeholder="••••••••" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-indigo-600 focus:border-indigo-600 block w-full p-2.5" required="" />
+                <input onChange={(e) => setFormData({ ...formData, password: e.target.value })} type="password" name="password" id="password" placeholder="••••••••" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5" required="" />
                 {
                   error.password && <p className="text-sm text-red-500">{error.password}</p>
                 }
@@ -79,17 +79,17 @@ export default function Login() {
               <div className="flex items-center justify-between">
                 <div className="flex items-start">
                   <div className="flex items-center h-5">
-                    <input id="remember" aria-describedby="remember" type="checkbox" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-indigo-300   dark:focus:ring-indigo-600 " required="" />
+                    <input id="remember" aria-describedby="remember" type="checkbox" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-cyan-300   dark:focus:ring-cyan-600 " required="" />
                   </div>
                   <div className="ml-3 text-sm">
                     <label htmlFor="remember" className="text-gray-500 dark:text-gray-300">Remember me</label>
                   </div>
                 </div>
-                <Link href="/auth/forget-password" className="text-sm font-medium text-indigo-600 hover:underline ">Forgot password?</Link>
+                <Link href="/auth/forget-password" className="text-sm font-medium text-cyan-600 hover:underline ">Forgot password?</Link>
               </div>
-              <button type="submit" className="w-full text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800">Sign in</button>
+              <button type="submit" className="w-full text-white bg-cyan-600 hover:bg-cyan-700 focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">Sign in</button>
               <p className="text-sm font-light ">
-                Don’t have an account yet? <Link href="/auth/register" className="font-medium text-indigo-600 hover:underline ">Sign up</Link>
+                Don’t have an account yet? <Link href="/auth/register" className="font-medium text-cyan-600 hover:underline ">Sign up</Link>
               </p>
             </form>
           </div>

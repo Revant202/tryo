@@ -48,7 +48,7 @@ export default function ApplicationsDetail() {
                     <>
                         <NavBar />
                         <div className='w-full px-4 flex flex-wrap  pt-20 '>
-                            <div className='w-full h-32 bg-gray-50 text-indigo-600 font-bold flex items-center justify-center flex-col'>
+                            <div className='w-full h-32 bg-gray-50 text-cyan-600 font-bold flex items-center justify-center flex-col'>
                                 <h1 className='text-3xl'>Application Detail</h1>
                             </div>
                             <div className='flex flex-col md:flex-row justify-center md:justify-around items-center w-full h-32 px-4'>
