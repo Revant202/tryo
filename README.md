@@ -25,9 +25,9 @@ A Job portal where you can explore, apply or post jobs.
 Website working Video - https://github.com/Revant202/tryo/assets/76607683/4cd7c0f0-435d-435b-bc50-a31d0a4b33c6
 #### landing
 ![landing](https://github.com/Revant202/tryo/assets/76607683/6c626d94-37f2-4d20-96c0-25ff17b7dc87)
-#### landing
+#### login
 ![login](https://github.com/Revant202/tryo/assets/76607683/28726cc6-c479-488d-b09a-6044915b0992)
-#### landing
+#### register
 ![register](https://github.com/Revant202/tryo/assets/76607683/0c8477c5-3fad-4b44-a95c-4fd84caac7a3)
 #### search
 ![search](https://github.com/Revant202/tryo/assets/76607683/a6318d52-4d88-4ac5-8a68-056412184636)
