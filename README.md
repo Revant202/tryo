@@ -20,46 +20,27 @@ A Job portal where you can explore, apply or post jobs.
 
 ## Screenshots
 
+
 #### Loading Screen
-![image](https://user-images.githubusercontent.com/90745903/235368351-699df61b-15bb-429d-9387-c724cc4c0d75.png)
+Website working Video - https://github.com/Revant202/tryo/assets/76607683/4cd7c0f0-435d-435b-bc50-a31d0a4b33c6
 
-#### Home Page 
-![image](https://user-images.githubusercontent.com/90745903/235368363-0fd4d1d4-e7ef-4202-b764-fc16f5185723.png)
+![landing](https://github.com/Revant202/tryo/assets/76607683/6c626d94-37f2-4d20-96c0-25ff17b7dc87)
+![login](https://github.com/Revant202/tryo/assets/76607683/28726cc6-c479-488d-b09a-6044915b0992)
+![register](https://github.com/Revant202/tryo/assets/76607683/0c8477c5-3fad-4b44-a95c-4fd84caac7a3)
+![search](https://github.com/Revant202/tryo/assets/76607683/a6318d52-4d88-4ac5-8a68-056412184636)
+![job details](https://github.com/Revant202/tryo/assets/76607683/3825c7b8-79f8-42f0-ae4c-e1bca8dec447)
+![dashboard](https://github.com/Revant202/tryo/assets/76607683/48b2c3ad-706d-4639-b4e5-4e84d26f92aa)
+![posted jobs](https://github.com/Revant202/tryo/assets/76607683/08b665d8-ae9d-41fc-985d-c6817fcdd095)
+![posted job dashboard](https://github.com/Revant202/tryo/assets/76607683/53335379-1909-4d67-88e8-997f854f80a2)
+![avaliable jobs](https://github.com/Revant202/tryo/assets/76607683/91f2518f-13f2-451e-929b-14bc19301e29)
+![apply job](https://github.com/Revant202/tryo/assets/76607683/317f42c9-9eb6-4ac5-86f9-20af414933dc)
+![loading screen](https://github.com/Revant202/tryo/assets/76607683/6b01b68c-0c7b-4c10-97df-2d19df31cbcc)
 
-
-#### search Job based on tags
-![image](https://user-images.githubusercontent.com/90745903/235368398-2b9f560c-faf9-43e8-9404-39da691bfb40.png)
-
-
-#### login Page
-![image](https://user-images.githubusercontent.com/90745903/223760826-3b23f677-f6f1-4740-9859-a7de7795cd09.png)
-
-
-#### Register Page
-![image](https://user-images.githubusercontent.com/90745903/223760920-30248b2d-d221-4f3b-b5e2-23c685bdde37.png)
-
-#### Forget Password 
-![image](https://user-images.githubusercontent.com/90745903/224545005-68654792-96c0-4e75-9e01-526c1eda5228.png)
-
-#### Dashboard to trace Your Favorite Jobs and Jobs on which you have Applied 
-![image](https://user-images.githubusercontent.com/90745903/235368489-f55ae625-bb7d-4b69-a233-e3b58c48bff4.png)
-![image](https://user-images.githubusercontent.com/90745903/235368497-e21d8ef2-2331-43cd-b2c8-d9b8d68fab2b.png)
-
-#### Post Job
-![image](https://user-images.githubusercontent.com/90745903/224545025-c678ce5e-94fb-4e64-aa8c-db9be558fa0d.png)
-
-#### Your Posted Job
-![image](https://user-images.githubusercontent.com/90745903/235368529-c23fb70f-0840-4795-bfce-062df0e2ef28.png)
-
-#### managing Applicant on your Job
-![image](https://user-images.githubusercontent.com/90745903/235368556-f8522766-7409-4031-a04f-b3fa0afa4e9f.png)
-
-
-#### View Job 
-![image](https://user-images.githubusercontent.com/90745903/224545051-9072fb38-411c-43f4-8a01-78af4c0a68ff.png)
 
 
 ## Features
+
+
 
 - SignIn / SignUp
 - Forget Password
