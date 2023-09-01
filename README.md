@@ -20,20 +20,30 @@ A Job portal where you can explore, apply or post jobs.
 
 ## Screenshots
 
-
-#### Loading Screen
 Website working Video - https://github.com/Revant202/tryo/assets/76607683/4cd7c0f0-435d-435b-bc50-a31d0a4b33c6
-
-![landing](https://github.com/Revant202/tryo/assets/76607683/6c626d94-37f2-4d20-96c0-25ff17b7dc87)
-![login](https://github.com/Revant202/tryo/assets/76607683/28726cc6-c479-488d-b09a-6044915b0992)
-![register](https://github.com/Revant202/tryo/assets/76607683/0c8477c5-3fad-4b44-a95c-4fd84caac7a3)
-![search](https://github.com/Revant202/tryo/assets/76607683/a6318d52-4d88-4ac5-8a68-056412184636)
-![job details](https://github.com/Revant202/tryo/assets/76607683/3825c7b8-79f8-42f0-ae4c-e1bca8dec447)
-![dashboard](https://github.com/Revant202/tryo/assets/76607683/48b2c3ad-706d-4639-b4e5-4e84d26f92aa)
-![posted jobs](https://github.com/Revant202/tryo/assets/76607683/08b665d8-ae9d-41fc-985d-c6817fcdd095)
-![posted job dashboard](https://github.com/Revant202/tryo/assets/76607683/53335379-1909-4d67-88e8-997f854f80a2)
-![avaliable jobs](https://github.com/Revant202/tryo/assets/76607683/91f2518f-13f2-451e-929b-14bc19301e29)
-![apply job](https://github.com/Revant202/tryo/assets/76607683/317f42c9-9eb6-4ac5-86f9-20af414933dc)
+#### landing
+![landing](https://github.com/Revant202/tryo/assets/76607683/22444d88-9ac8-487c-91d2-2f3987332267)
+#### login
+![login](https://github.com/Revant202/tryo/assets/76607683/96f3576d-76ee-4299-bf1d-9b83b07786c9)
+#### register
+![register](https://github.com/Revant202/tryo/assets/76607683/91a94274-5486-4519-91cb-c6802900ff61)
+#### search
+![search](https://github.com/Revant202/tryo/assets/76607683/00e43245-eb59-48b8-b4d0-1d59d3f4d461)
+#### job details
+![job details](https://github.com/Revant202/tryo/assets/76607683/5205a027-01d0-47a4-a2cc-01467bc28242)
+#### dashboard
+![dashboard](https://github.com/Revant202/tryo/assets/76607683/186f2588-768d-43f7-a49f-7c0a96bbfb47)
+#### posted jobs
+![posted jobs](https://github.com/Revant202/tryo/assets/76607683/0e933910-a529-4a18-b983-ffdc936c0c3c)
+#### post a job
+![post job](https://github.com/Revant202/tryo/assets/76607683/52db55dc-fe7d-4162-a070-3fa80166e0a3)
+#### posted job dashboard
+![posted job dashboard](https://github.com/Revant202/tryo/assets/76607683/76487611-6efa-4e78-9587-13607063cb0d)
+#### available jobs
+![avaliable jobs](https://github.com/Revant202/tryo/assets/76607683/72c53ee1-7457-4eab-bc85-0cdfa3b37441)
+#### apply job
+![apply job](https://github.com/Revant202/tryo/assets/76607683/2aa09dce-f927-4988-88c9-fcd95ba81b81)
+#### loading screen
 ![loading screen](https://github.com/Revant202/tryo/assets/76607683/6b01b68c-0c7b-4c10-97df-2d19df31cbcc)
 
 
@@ -78,3 +88,5 @@ Install my-project with npm
   npm run build (for Production)
   npm run preview (To View Production Server )
 ```
+## Deployment
+https://tryo.vercel.app/
