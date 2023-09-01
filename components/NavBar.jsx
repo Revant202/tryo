@@ -86,7 +86,7 @@ export default function NavBar() {
 
     return (
         <>
-            <div className={`w-full ${scrolled ? "bg-slate-700/70" : "bg-slate-700"} px-6 h-20 bg-slate-700 text-white flex items-center justify-between fixed top-0 left-0 z-50`}>
+            <div className={`w-full ${scrolled ? "bg-black/70" : "bg-gradient-to-r from-cyan-500/70 from-0% via-slate-900/70 via-40% to-black/70 to-90%"} px-6 h-20 bg-slate-700 text-white flex items-center justify-between fixed top-0 left-0 z-50`}>
                 <div className='px-2 h-full flex items-center justify-center'>
                     <p className='uppercase font-semibold tracking-widest text-lg'>TRYO</p>
                 </div>

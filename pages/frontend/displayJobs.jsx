@@ -16,7 +16,9 @@ export default function DisplayJobs() {
 
             <NavBar />
             <div className='w-full  py-20 flex items-center md:px-8 px-2  justify-center flex-col'>
-                <h1 className='px-4 mx-2 py-2 uppercase tracking-wider border-b-2 border-b-cyan-600 text-3xl font-semibold'>Available Jobs</h1>
+            <div className='w-full h-20 bg-gray-50 text-cyan-600 font-bold flex items-center justify-center flex-col'>
+                                <h1 className='text-3xl'>Avaliable Jobs</h1>
+                            </div>
                 <div className='w-full h-full py-4 flex  overflow-y-auto  items-center justify-center flex-wrap'>
                     {/* map */}
                     {
