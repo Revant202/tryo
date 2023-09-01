@@ -15,12 +15,12 @@ A Job portal where you can explore, apply or post jobs.
 - JWT
 
 
-
+## Deployment
+https://tryo.vercel.app/
 
 
 ## Screenshots
 
-Website working Video - https://github.com/Revant202/tryo/assets/76607683/4cd7c0f0-435d-435b-bc50-a31d0a4b33c6
 #### landing
 ![landing](https://github.com/Revant202/tryo/assets/76607683/22444d88-9ac8-487c-91d2-2f3987332267)
 #### login
@@ -88,5 +88,4 @@ Install my-project with npm
   npm run build (for Production)
   npm run preview (To View Production Server )
 ```
-## Deployment
-https://tryo.vercel.app/
+
